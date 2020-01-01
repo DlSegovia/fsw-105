@@ -17,9 +17,9 @@ var person = {
     age: 12
 }
 if (person.age > 18) {
-    console.log("is allowed to go to th movie")
+    console.log("is allowed to go to the movie")
 } else {
-    console.log("is not allowed to go to th movie")
+    console.log("is not allowed to go to the movie")
 }
 
 var person = {
@@ -27,9 +27,9 @@ var person = {
     age: 12
 }
 if (person.name[0] === 'B') {
-    console.log(person.name + " is allowed to go to th movie")
+    console.log(person.name + " is allowed to go to the movie")
 } else {
-    console.log(person.name + " is not allowed to go to th movie")
+    console.log(person.name + " is not allowed to go to the movie")
 }
 
 var person = {
@@ -37,7 +37,7 @@ var person = {
     age: 12
 }
 if (person.name[0] === "B" && person.age > 18) {
-    console.log(person.name + " is allowed to go to th movie")
+    console.log(person.name + " is allowed to go to the movie")
 } else {
-    console.log(person.name + " is not allowed to go to th movie")
+    console.log(person.name + " is not allowed to go to the movie")
 }
