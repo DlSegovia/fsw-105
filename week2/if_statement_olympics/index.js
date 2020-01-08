@@ -1,3 +1,4 @@
+//Daniel Segovia fsw-105 week2 If Statement Olympics 
 if (5 > 3) {
     console.log("is greater than")
 }
