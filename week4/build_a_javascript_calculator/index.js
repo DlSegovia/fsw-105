@@ -1,10 +1,13 @@
-// 
-
+// Daniel Segovia class fsw-105 week4 Build a JavaScript Calculator in Node and readline-sync
 const readLine = require("readLine-sync");
 
-let firstNumber = readLine.questionInt("first Number: ");
-let secondNumber = readLine.questionInt("Second Number: ");
+// ------------------------Please enter your first number (store that number)------------------------
+let firstNumber = readLine.questionInt("What's your first Number: ");
+// ------------------------Please enter your second number (store that number)------------------------
+let secondNumber = readLine.questionInt("What's your Second Number: ");
+// ------------------------Operation to perform: add, sub, mul, div (then store the operation)------------------------
 let operator = readLine.question("Operator: ");
+// ------------------------You will call one of your 4 functions to perform the correct operation--------------
 //  ------------------------function that adds two numbers and returns the result------------------------
 function add(num1, num2) {
     return num1 + num2;
@@ -32,9 +35,4 @@ function sub(num1, num2) {
 }
 if (operator === "-")
     console.log("The Result is: " + sub(firstNumber, secondNumber));
-
-// ------------------------Please enter your first number (store that number)------------------------
-// ------------------------Please enter your second number (store that number)------------------------
-// ------------------------Operation to perform: add, sub, mul, div (then store the operation)------------------------
-// ------------------------You will call one of your 4 functions to perform the correct operation--------------
 // ------------------------You will then print to the console: The result is: [the result]------------------------
