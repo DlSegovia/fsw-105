@@ -78,4 +78,3 @@ for (var i = 0; i < arrayOfArrays.length; i++) { // how many times will this loo
         console.log(arrayOfArrays[i] + " Light's are on");
 
     }
-}
