@@ -1,7 +1,5 @@
-<< << << < HEAD
 //Daniel Segovia fsw-105 week2 If Statement Olympics 
-// function greaterthan(num1, num2) {
-//Daniel Segovia fsw-105 week2 If Statement Olympics
+
 function greaterthan(num1, num2) {
     if (num1 > num2) {
         console.log("is greater than");
@@ -19,7 +17,7 @@ function length(num) {
     }
 }
 var result = length(3);
-// // -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
 if (catString === dogString) {
     console.log("Tthe same");
 } else {
@@ -54,6 +52,4 @@ if (person.name[0] === "B" && person.age > 18) {
     console.log(person.name + " is allowed to go to the movie");
 } else {
     console.log(person.name + " is not allowed to go to the movie");
-} >>>
->>>
-> 5 cba75897a3220a655f1c1fa8ed68cf3e1de920c
+}
