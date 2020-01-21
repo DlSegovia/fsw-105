@@ -1,4 +1,4 @@
-// Daniel Segovia class fsw-105 week3 Loops and Arrays
+// if
 // ----------------------------------------------- this is the computer inventory
 var officeItems = ["stapler", "monitor", "computer", "desk", "lamp", "computer", "lamp", "stapler", "computer", "computer"];
 let counter = 0;

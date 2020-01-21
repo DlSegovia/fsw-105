@@ -35,23 +35,23 @@
 
 // // const result = arr.map(num => num + 10)
 
-// const users = [
-//     { name: "joe" },
-//     { name: "steve" },
-//     { name: "lisa" }
-// ]
+const users = [
+    { name: "joe" },
+    { name: "steve" },
+    { name: "lisa" }
+]
 
-// const result = users.map(function(user) {
-//     return user.name
-// })
+const result = users.map(function(user) {
+    return user.name
+})
 
-// console.log(result)
-//     // ----------------------------------------------------------------------------------
-//     // # .filter()
-//     //     Returns: A new array with only the filtered out items from the original array
-//     //     Purpose: Reducing a data set into a sub-data set.
-//     //         Ex: Initial array has all movies ( action, fantasy, horror )
-//     //             You could use filter to return an array with only the action movies.
+console.log(result)
+    //     // ----------------------------------------------------------------------------------
+    //     // # .filter()
+    //     //     Returns: A new array with only the filtered out items from the original array
+    //     //     Purpose: Reducing a data set into a sub-data set.
+    //     //         Ex: Initial array has all movies ( action, fantasy, horror )
+    //     //             You could use filter to return an array with only the action movies.
 
 // const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
