@@ -80,6 +80,7 @@
 // console.log(strNum);
 
 // // 3. Capitalize each of an array of names
+
 // var first = (["john", "JACOB", "jinGleHeimer", "schmidt"]);
 
 // function newCaps(arrName) {
@@ -104,53 +105,65 @@
 
 // 5) Make an array of strings of the names saying whether or not they can go to The Matrix
 
-// var movieGoersList = ([
-//         name: "Angelina Jolie",
-//         age: 80
-//     },
-//     {
-//         name: "Eric Jones",
-//         age: 2
-//     },
-//     {
-//         name: "Paris Hilton",
-//         age: 5
-//     },
-//     {
-//         name: "Kayne West",
-//         age: 16
-//     },
-//     {
-//         name: "Bob Ziroll",
-//         age: 100
-//     }
-// ]));
-// const movieGoersName = movieGoersList.map(function(user) {
-//     return user.name
-// })
+var matixMembs = [{
+        name: "Angelina Jolie",
+        age: 80
+    },
+    {
+        name: "Eric Jones",
+        age: 2
+    },
+    {
+        name: "Paris Hilton",
+        age: 5
+    },
+    {
+        name: "Kayne West",
+        age: 16
+    },
+    {
+        name: "Bob Ziroll",
+        age: 100
+    }
+]
 
-// console.log(movieGoersName)
+const whoGoes = matixMembs.map(matixMemb => matixMemb.age <= 18)
+
+// if (whoGoes.age <= 18) {
+console.log(whoGoes + " can go to The Matrix.")
+    // } else {
+console.log(whoGoes + " is under age!!")
+
+// }
+// const canSeeTheMatrix = ages.filter(function(ofAge) {
+// if (ofAge.age <= 18) {
+//     return ofAge
+// }
+
+// console.log(canSeeTheMatrix)
+// const peopleWhoBelongToTheIlluminati = club.filter(function(dontBelong) 
+//     if (dontBelong.member === true) {
+//         return dontBelong
+//     }
+
 
 // 5. Make an array of strings of the names saying whether or not they can go to The Matrix
 
-function makeStrings(arr) {
+// var movieGoersList = ([{
+//     name: "Angelina Jolie",
+//     age: 80
+// }, {
+//     name: "Eric Jones",
+//     age: 2
+// }, {
+//     name: "Paris Hilton",
+//     age: 5
+// }, {
+//     name: "Kayne West",
+//     age: 16
+// }, {
+//     name: "Bob Ziroll",
+//     age: 100
+// }]);
 
-}
-console.log(makeStrings([
-    name: "Angelina Jolie",
-    age: 80
-}, {
-    name: "Eric Jones",
-    age: 2
-}, {
-    name: "Paris Hilton",
-    age: 5
-}, {
-    name: "Kayne West",
-    age: 16
-}, {
-    name: "Bob Ziroll",
-    age: 100
-}
-
-]));
+// function makeStrings(arr)

@@ -40,10 +40,10 @@ const users = [
     { name: "steve" },
     { name: "lisa" }
 ]
-
-const result = users.map(function(user) {
-    return user.name
-})
+const result = users.map(user => user.name)
+    // const result = users.map(function(user) {
+    //     return user.name
+    // })
 
 console.log(result)
     //     // ----------------------------------------------------------------------------------
