@@ -1,23 +1,25 @@
-var employees = []
+// Daniel Segovia fsw-105 week6 assignment
+const array = []
 
 function Employee(name, jobTitle, salary, status) {
     this.name = name
     this.jobTitle = jobTitle
     this.salary = salary
     this.status = status
-    this.printEmployeeForm = function(worker) {
-        console.log("Employee " + worker.name + " works as a " + worker.jobTitle + " earning " + worker.salary + " and is a " + worker.status + ".")
+    this.printEmployeeForm = function() {
+        console.log("Employee " + this.name + " works as a " + this.jobTitle + " earning salary of " + this.salary + " a month and works as a " + this.status + " employee.")
     }
     this.changeStatus = function(newStatus) {
         this.status = newStatus
     }
 }
-var employeeOne = new Employee("Dan Doe", "Sales Person", 35 + "k", "Full Time")
-var employeeTwo = new Employee("Debbie Cool", "Cashier", 25 + "k", "Full Time")
-var employeeThree = new Employee("Mark Parker", "", 40 + "k", "Full Time")
+var employeeOne = new Employee("Dan Doe", "Sales Person", 3500 + "k", "Full Time")
+var employeeTwo = new Employee("Debbie Cool", "Cashier", 2500 + "k", "Full Time")
+var employeeThree = new Employee("Mark Parker", "Manager", 4000 + "k", "Full Time")
 
-function myFunction() {
-    employees.push("Dan Doe", "Debbie Cool", "Mark Parker");
-}
+array.push(employeeOne, employeeTwo, employeeThree);
 employeeOne.changeStatus("Contract")
-employeeOne.printEmployeeForm(employeeOne)
+
+employeeOne.printEmployeeForm()
+employeeTwo.printEmployeeForm()
+employeeThree.printEmployeeForm()
