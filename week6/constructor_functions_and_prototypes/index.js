@@ -6,19 +6,19 @@ function Employee(name, jobTitle, salary, status = "Full Time") {
     this.jobTitle = jobTitle;
     this.salary = salary;
     this.status = status;
-    this.printEmployeeForm = function() {
-        console.log("Employee " + this.name + " works as a " + this.jobTitle + " earning salary of " + this.salary + " a month and works as a " + this.status + " employee.");
-    }
-    this.changeStatus = function(newStatus) {
-        this.status = newStatus
-    }
 }
+
+Employee.prototype.printDetails = function() {
+    console.log("Name: " + this.name);
+    console.log("JobTitle: " + this.jobTitle);
+    console.log("Salary: " + this.salary);
+    console.log("Status: " + this.status);
+}
+
+
 var employeeOne = new Employee("Dan Doe", "Sales Person", 35 + "k", "Full Time");
 var employeeTwo = new Employee("Debbie Cool", "Cashier", 25 + "k", "Full Time");
 var employeeThree = new Employee("Mark Parker", "Manager", 40 + "k", "Full Time");
-
-// array.push(employeeOne, employeeTwo, employeeThree);
-// employeeOne.changeStatus("Contract")
 
 function addNew(empl) {
     arrayEmp.push(empl)
@@ -26,7 +26,5 @@ function addNew(empl) {
 addNew(employeeOne);
 addNew(employeeTwo);
 addNew(employeeThree);
-// employeeOne.printEmployeeForm()
-// employeeTwo.printEmployeeForm()
-// employeeThree.printEmployeeForm()
+
 console.log(arrayEmp);
